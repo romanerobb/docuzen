@@ -9,13 +9,15 @@ export default function Navbar() {
     return (
         
         <nav>
-            <Button variant="outlined" color="primary" href="/">Home</Button>
+            <Button variant="outlined" color="error" href="/">Home</Button>
             <span> </span>
-            <Button variant="outlined" color="success" href="/login">Pricing</Button>
+            <Button variant="outlined" color="primary" href="/register">Register</Button>
             <span> </span>
-            <Button variant="outlined" color="warning" href="/register">Partner Up!</Button>
+            <Button variant="outlined" color="success" href="/pricing">Pricing</Button>
             <span> </span>
-            <Button variant="outlined" color="error" href="/menu">About Us</Button>
+            <Button variant="outlined" color="warning" href="/partnerup">Partner Up!</Button>
+            <span> </span>
+            <Button variant="outlined" color="error" href="/about">About Us</Button>
             <span> </span>
             <Button variant="outlined" color="secondary" href="/contact">Contact</Button>
             <br></br>

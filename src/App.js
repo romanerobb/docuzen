@@ -4,6 +4,11 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from './components/homepage';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
+import Pricing from './components/pricing';
+import PartnerUp from './components/partnerup';
+import About from './components/about';
+import Contact from './components/contact';
+import Register from './components/register';
 
 
 function App() {
@@ -17,12 +22,13 @@ function App() {
                     <Navbar />
                     <Routes>
                         <Route exact path="" element={<HomePage />} />
-                        {/* <Route path="user" element={<UserAccount />} />
-                        <Route path="login" element={<UserLogin />} />
-                        <Route path="register" element={<UserRegistration />} />
-                        <Route path="messages" element={<UserMessages />} /> */}
+                        <Route path="pricing" element={<Pricing />} />
+                        <Route path="partnerup" element={<PartnerUp />} />
+                        <Route path="about" element={<About />} />
+                        <Route path="contact" element={<Contact />} />
+                        <Route path="register" element={<Register />} />
                     </Routes>
-                    
+                    <Footer />
             </BrowserRouter>
 </center>
 </>
