@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# docuzen
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Cloud-Based, Knowledge Management Platform.
 
-## Available Scripts
+## Summary
 
-In the project directory, you can run:
+docuZen is a SaaS product that offers a standalone knowledge management solution. There are many problems with current knowledge management solutions and docuZen attempts to solve each one.
 
-### `npm start`
+### Problems and Solutions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This idea was born out of a problem experienced in Service/Help Desks, as well as with system administrators and IT departments in general. Knowledge Management is typically solved through the Service Management application used by the company. KM’s are typically wrapped into those software solutions and never tend to be the highlight of the suite. They typically lack in modern UI and don’t have native features for accountability, maintainability, and version control. This results in outdated documents that typically need complete rewrites, rather than just minimal updates.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+•	Problem 1 – Accountability:
 
-### `npm test`
+o	Solution: docuZen attempts to resolve this issue by assigning articles to groups or individuals as well as putting approval chains in place. This will ensure that when a lower level technician writes an article, it goes through the correct chain of approval in order to get created or edited. The owner of the article will always be aware of changes attempting to be made on their article and have last (or close to last) say on this change coming into effect.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+•	Problem 2 – Forced Maintenance:
 
-### `npm run build`
+o	Solution: docuZen attempts to resolve this issue by having users set maintenance periods on articles upon their creation. If someone writes a knowledge article on a software install, they can set a quarterly (or monthly, annual, bi-annual…) review schedule for it that will remind to check and update if needed. This will verify that articles do not become stale and out of date. This is a huge problem is current knowledge bases that cause unusable documents all over.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+•	Problem 3 – Version Control:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+o	Solution: docuZen attempts to resolve this issue by giving tech writers and maintainers of knowledge the same thing software developers have had for years. This will allow them to see how a document has evolved over the time and revert back to previous versions if needed. It will allow people approving documents that have been edited easier by allowing them to see what changes has been made in the most recent update.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Unique Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Summary: Some features that will make us stand out where others tend to lack.
+1.	Wizards: We will provide wizards/workflows for standard documents to assist in the writing process.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+a.	Software Installations: This type of wizard will assist them in writing installation guides for their company. These articles tend to have a lot of steps and screenshots involved. The wizard would allow for easy input of both along with lists, links to NAS locations and the sort. This would also allow all software installation guides to look similar, no matter who creates the document.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+b.	Standard Processes: This type of document would be typical new-hire, termination, and transfer processes and what needs to be done at each step. The wizard would assist them in making sure all bases are covered in one of these processes. Any creations or changes of accounts that a technician would need to go through.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+c.	Server/Systems Documentation: This would allow a system administrator to explain in depth, exactly what a server/program is used for and how it’s configured. We could provide on-prem tools that scan a server and gather all information about the server and its purpose and the technician adds his own documentation.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2.	Staffed Tech Writers: These writers would develop open knowledge articles that a company can pull into its own knowledge base. These might be standard processes that don’t change from company to company, basic software installations, and other generic guides. They would also be the customer success team that helps with onboarding and transferring knowledge bases into our system.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3.	Social Knowledge: Companies can ‘open source’ certain articles that contain no important information from their company and make them searchable for other companies. This is a newer feature that would attempt to bring companies together in order to share basic knowledge. Companies can take docuZen articles or other companies articles, bring it into their organization, and then make changes and privatize it if needed.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4.	External Knowledge: This is different than social knowledge and not as unique to this platform. This is the company’s knowledge base page that they can make public to their own organization. Not sure if this will be needed to authenticate over individual user/pass or company user/pass.
