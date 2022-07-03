@@ -8,7 +8,7 @@ export default function PartnerUp() {
     
     return (
 <>
-<h1>Partner with us!</h1>
+<h1>Partner up with us!</h1>
 </>
     );
 }
